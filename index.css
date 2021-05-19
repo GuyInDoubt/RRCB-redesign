@@ -1,3 +1,13 @@
+@media(max-width:998px){
+  html {
+      font-size: 55%;
+  }
+
+  #Lists{
+    font-size: 175%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,24 +33,6 @@ header {
   margin: 15px;
   margin-top: 0;
   font-size: 2rem;
-  text-align: center;
-}
-
-#navList {
-  width: 100%;
-  display: flex;
-  background: #333;
-}
-
-#navbar {
-  top: 0;
-  z-index: 1;
-  position: sticky;
-}
-
-.navItems {
-  width: 16%;
-  overflow: hidden;
   text-align: center;
 }
 
@@ -89,10 +81,11 @@ header {
 #Lists {
   text-align: center;
   background: #333;
-  padding: 10px 28px 10px 22px;
-  width: 400px;
+  padding: 10px 28px 1px 22px;
+  width: 30rem;
   margin: auto;
-  height: 350px;
+  margin-top: 5rem;
+  height: 320px;
   color: antiquewhite;
   border: 3px solid #000;
   border-radius: 10px;
