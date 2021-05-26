@@ -6,246 +6,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--CSS-->
     <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"/>
     <title>RRCB, New Delhi</title>
   </head>
   <body>
     <!--Main Header-->
-    <div id="header">
-      <header>
-        <div>
-          <img
-            src="railLogo.png"
-            alt="Logo of Indian Railways "
-            style="width: 100px; height: 100px"
-          />
+    <div class="card text-center bg-success">
+      <div class="card-body">
+        <div class="d-flex align-items-center justify-content-evenly">
+          <div>
+            <img src="indianEmblem.png" alt="Indian Emblem" width="80" height="100">
+          </div>
+          <div>
+            <h4 class="card-title">Govt. of India, Ministry of Railways, Railway Recruitment Control
+              Board, New Delhi</h4>
+          </div>
+          <div>
+            <img src="railLogo.png" alt="Indian Emblem" width="100" height="100">
+          </div>
         </div>
-        <div id="heading">
-          <p>
-            Govt. of India, Ministry of Railways, Railway Recruitment Control
-            Board, New Delhi
-          </p>
-        </div>
-        <div>
-          <img
-            src="indianEmblem.png"
-            alt="indian Emblem"
-            style="width: 80px; height: 100px"
-          />
-        </div>
-      </header>
+      </div>
     </div>
 
     <!--Navbar-->
-    <ul class="nav nav-dark bg-dark nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active link-light" aria-current="page" href="#"
-          >Home</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link active link-light"
-          aria-current="page"
-          href="https://rrcb.gov.in/rrcbfaq.html"
-          >FAQ</a
-        >
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle link-light"
-          data-bs-toggle="dropdown"
-          href="#"
-          role="button"
-          aria-expanded="false"
-        >
-          Format-Download
-        </a>
-        <ul class="dropdown-menu bg-dark">
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrcb.gov.in/Forms/SC-ST%20certificate.pdf"
-              >SC/ST</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrcb.gov.in/Forms/obc%20certificate.pdf"
-              >OBC</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrcb.gov.in/Forms/obc%20declaration.pdf"
-              >OBC-Declaration</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrcb.gov.in/Forms/minority%20declaration.pdf"
-              >Minority Declaration</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrcb.gov.in/Forms/disability%20certificate.pdf"
-              >PWBD Declaration</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrcb.gov.in/Forms/vision%20certificate.pdf"
-              >Vision cert</a
-            >
-          </li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle link-light"
-          data-bs-toggle="dropdown"
-          href="#"
-          role="button"
-          aria-expanded="false"
-        >
-          All RRBs
-        </a>
-        <ul class="dropdown-menu bg-dark">
-          <li>
-            <a class="dropdown-item link-light" href="http://www.rrbald.gov.in/"
-              >Allahabad</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item link-light" href="http://www.rrbcdg.gov.in/"
-              >Chandigarh</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="http://www.rrbmumbai.gov.in/"
-              >Mumbai</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://www.rrbkolkata.gov.in/"
-              >Kolkata</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="http://www.rrbpatna.gov.in/"
-              >Patna</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rrbthiruvananthapuram.gov.in/"
-              >Thiruvananthapuram</a
-            >
-          </li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle link-light"
-          data-bs-toggle="dropdown"
-          href="#"
-          role="button"
-          aria-expanded="false"
-        >
-          All RRCs
-        </a>
-        <ul class="dropdown-menu bg-dark">
-          <li>
-            <a class="dropdown-item link-light" href="https://www.rrccr.com/"
-              >CR-Mumbai</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item link-light" href="https://www.rrcpryj.org/"
-              >NCR-Allahabad</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item link-light" href="https://www.rrcer.com/"
-              >ER-Kolkata</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item link-light" href="https://www.rrcmas.in/"
-              >SR-Chennai</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item link-light" href="http://www.rrc-wr.com/"
-              >WR-Mumbai</a
-            >
-          </li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle link-light"
-          data-bs-toggle="dropdown"
-          href="#"
-          role="button"
-          aria-expanded="false"
-        >
-          Other Websites
-        </a>
-        <ul class="dropdown-menu bg-dark">
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://indianrailways.gov.in/"
-              >Indian Railways</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="http://www.employmentnews.gov.in/"
-              >Employment News</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://www.ncs.gov.in/Pages/default.aspx"
-              >NCS</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item link-light"
-              href="https://rdso.indianrailways.gov.in/view_section.jsp?lang=0&id=0,2,456"
-              >RDSO</a
-            >
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active link-light" aria-current="page" href="#"
+                        >Home</a
+                      >
+                  </li>
+                  <li class="nav-item">
+                      <a
+                        class="nav-link active link-light"
+                        aria-current="page"
+                        href="https://rrcb.gov.in/rrcbfaq.html"
+                        >FAQ</a
+                      >
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle link-light"
+                        data-bs-toggle="dropdown"
+                        href="#"
+                        role="button"
+                        aria-expanded="false"
+                      >
+                        Format-Download
+                      </a>
+                      <ul class="dropdown-menu bg-dark">
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrcb.gov.in/Forms/SC-ST%20certificate.pdf"
+                            >SC/ST</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrcb.gov.in/Forms/obc%20certificate.pdf"
+                            >OBC</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrcb.gov.in/Forms/obc%20declaration.pdf"
+                            >OBC-Declaration</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrcb.gov.in/Forms/minority%20declaration.pdf"
+                            >Minority Declaration</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrcb.gov.in/Forms/disability%20certificate.pdf"
+                            >PWBD Declaration</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrcb.gov.in/Forms/vision%20certificate.pdf"
+                            >Vision cert</a
+                          >
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle link-light"
+                        data-bs-toggle="dropdown"
+                        href="#"
+                        role="button"
+                        aria-expanded="false"
+                      >
+                        All RRBs
+                      </a>
+                      <ul class="dropdown-menu bg-dark">
+                        <li>
+                          <a class="dropdown-item link-light" href="http://www.rrbald.gov.in/"
+                            >Allahabad</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item link-light" href="http://www.rrbcdg.gov.in/"
+                            >Chandigarh</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="http://www.rrbmumbai.gov.in/"
+                            >Mumbai</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://www.rrbkolkata.gov.in/"
+                            >Kolkata</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="http://www.rrbpatna.gov.in/"
+                            >Patna</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rrbthiruvananthapuram.gov.in/"
+                            >Thiruvananthapuram</a
+                          >
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle link-light"
+                        data-bs-toggle="dropdown"
+                        href="#"
+                        role="button"
+                        aria-expanded="false"
+                      >
+                        All RRCs
+                      </a>
+                      <ul class="dropdown-menu bg-dark">
+                        <li>
+                          <a class="dropdown-item link-light" href="https://www.rrccr.com/"
+                            >CR-Mumbai</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item link-light" href="https://www.rrcpryj.org/"
+                            >NCR-Allahabad</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item link-light" href="https://www.rrcer.com/"
+                            >ER-Kolkata</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item link-light" href="https://www.rrcmas.in/"
+                            >SR-Chennai</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item link-light" href="http://www.rrc-wr.com/"
+                            >WR-Mumbai</a
+                          >
+                        </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle link-light"
+                        data-bs-toggle="dropdown"
+                        href="#"
+                        role="button"
+                        aria-expanded="false"
+                      >
+                        Other Websites
+                      </a>
+                      <ul class="dropdown-menu bg-dark">
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://indianrailways.gov.in/"
+                            >Indian Railways</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="http://www.employmentnews.gov.in/"
+                            >Employment News</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://www.ncs.gov.in/Pages/default.aspx"
+                            >NCS</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item link-light"
+                            href="https://rdso.indianrailways.gov.in/view_section.jsp?lang=0&id=0,2,456"
+                            >RDSO</a
+                          >
+                        </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
 
     <div id="card1">
       <!--Important Alert-->
@@ -342,179 +335,58 @@
       </div>
 
       <!--Employment Notice List-->
-      <div class="container">
-        <div id="Lists">
-          <ul>
-            <h1 style="font-size: 1.85rem;">Centralised Employment Notices</h1>
-            <li class="Notices">
-              <a href="https://rrcb.gov.in/CEN_01_2018.html"
-                >1/2018 (ALP & Technicians)</a
-              >
-            </li>
-            <li class="Notices">
-              <a href="https://rrcb.gov.in/CEN_02_2018.html"
-                >2/2018 (Level-1 Posts)</a
-              >
-            </li>
-            <li class="Notices">
-              <a href="https://rrcb.gov.in/CEN_03_2018.html"
-                >3/2018 (JE / DMS / CMA)</a
-              >
-            </li>
-            <li class="Notices">
-              <a href="https://rrcb.gov.in/CEN_01_2019.html"
-                >1/2019 (NTPC G/UG)</a
-              >
-            </li>
-            <li class="Notices">
-              <a href="https://rrcb.gov.in/CEN_02_2019.html"
-                >2/2019 (Paramedical)</a
-              >
-            </li>
-            <li class="Notices">
-              <a href="https://rrcb.gov.in/CEN_03_2019.html"
-                >3/2019 (Ministerial)</a
-              >
-            </li>
-          </ul>
+      <div class="container px-5 pt-5 my-2">
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark"><h3>Centralised Employment Notices</h1></li>
+                <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark">
+                    <a href="https://rrcb.gov.in/CEN_01_2018.html"
+                      >1/2018 (ALP & Technicians)</a
+                    >
+                  </li>
+                  <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark">
+                    <a href="https://rrcb.gov.in/CEN_02_2018.html"
+                      >2/2018 (Level-1 Posts)</a
+                    >
+                  </li>
+                  <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark">
+                    <a href="https://rrcb.gov.in/CEN_03_2018.html"
+                      >3/2018 (JE / DMS / CMA)</a
+                    >
+                  </li>
+                  <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark">
+                    <a href="https://rrcb.gov.in/CEN_01_2019.html"
+                      >1/2019 (NTPC G/UG)</a
+                    >
+                  </li>
+                  <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark">
+                    <a href="https://rrcb.gov.in/CEN_02_2019.html"
+                      >2/2019 (Paramedical)</a
+                    >
+                  </li>
+                  <li class="list-group-item list-group-item-dark list-group-item-dark py-3 text-center text-light bg-dark">
+                    <a href="https://rrcb.gov.in/CEN_03_2019.html"
+                      >3/2019 (Ministerial)</a
+                    >
+                  </li>
+            </ul>
         </div>
-      </div>
     </div>
 
     <!--Footer-->
-    <footer class="text-gray-600 body-font">
-      <div
-        class="
-          container
-          px-5
-          py-24
-          mx-auto
-          flex
-          md:items-center
-          lg:items-start
-          md:flex-row md:flex-nowrap
-          flex-wrap flex-col
-        "
-      >
-        <div
-          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
-        >
-          <a
-            class="
-              flex
-              title-font
-              font-medium
-              items-center
-              md:justify-start
-              justify-center
-              text-gray-900
-            "
-          >
-          </a>
-        </div>
-        <div
-          class="
-            flex-grow flex flex-wrap
-            md:pl-20
-            -mb-10
-            md:mt-0
-            mt-10
-            md:text-left
-            text-center
-          "
-        >
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2
-              class="
-                title-font
-                font-medium
-                text-gray-900
-                tracking-widest
-                text-sm
-                mb-3
-              "
-            >
-              USEFUL LINKS
-            </h2>
-            <nav class="list-none mb-10">
-              <li>
-                <a
-                  class="text-gray-600 hover:text-gray-800"
-                  href="http://www.rrbmumbai.gov.in/instructions.php"
-                  >Instructions</a
-                >
-              </li>
-              <li>
-                <a
-                  class="text-gray-600 hover:text-gray-800"
-                  href="http://www.rrbmumbai.gov.in/contact.php"
-                  >Contact Us</a
-                >
-              </li>
-              <li>
-                <a
-                  class="text-gray-600 hover:text-gray-800"
-                  href="http://www.rrbmumbai.gov.in/disclaimer.php"
-                  >Disclaimer</a
-                >
-              </li>
-            </nav>
-          </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2
-              class="
-                title-font
-                font-medium
-                text-gray-900
-                tracking-widest
-                text-sm
-                mb-3
-              "
-            >
-              CONTACT ADDRESSES
-            </h2>
-            <nav class="list-none mb-10">
-              <li>
-                <a class="text-gray-600 hover:text-gray-800"
-                  >Railway Recruitment Contral Board,</a
-                >
-              </li>
-              <li>
-                <a class="text-gray-600 hover:text-gray-800"
-                  >FROA Office, Rail Bhavan,</a
-                >
-              </li>
-              <li>
-                <a class="text-gray-600 hover:text-gray-800"
-                  >Raisina Road, New Delhi,</a
-                >
-              </li>
-              <li>
-                <a class="text-gray-600 hover:text-gray-800">Delhi 110001</a>
-              </li>
-            </nav>
-          </div>
-        </div>
+    <div class="card text-center bg-light text-dark">
+      <div class="card-body">
+        <h4 class="card-title text-warning pt-2 pb-4">CONTACT ADDRESS</h4>
+        <p class="card-text">Railway Recruitment Contral Board</p>
+        <p class="card-text">FROA Office, Rail Bhavan,</p>
+        <p class="card-text">Raisina Road, New Delhi,</p>
+        <p class="card-text">Delhi 110001</p>
       </div>
-      <div class="bg-gray-100">
-        <div
-          class="
-            container
-            mx-auto
-            py-4
-            px-5
-            flex flex-wrap flex-col
-            sm:flex-row
-          "
-        >
-          <p class="text-gray-500 text-sm text-center sm:text-left">
-            Copyright Â© Railway Recruitment Board, Bangalore 2012 All rights
-            reserved <br>
-            Redesigned (just for fun) as an unofficial project by <a href="https://github.com/GuyInDoubt">GuyInDoubt</a>
-          </p>
-        </div>
+      <div class="card-footer text-muted">
+        <h6>Copyright Â© Railway Recruitment Board, Bangalore 2012 All rights reserved <br>
+          Redesigned (just for fun) as an unofficial project by GuyInDoubt <a href="https://github.com/GuyInDoubt"><i class="fa fa-globe"></i></a></h6>
       </div>
-    </footer>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"

@@ -1,10 +1,6 @@
 @media(max-width:998px){
-  html {
-      font-size: 55%;
-  }
-
-  #Lists{
-    font-size: 175%;
+  .alert{
+    font-size: 70%;
   }
 }
 
@@ -15,25 +11,6 @@
 
 ul {
   list-style-type: none;
-}
-
-header {
-  width: 100%;
-  height: 130px;
-  display: flex;
-  padding: 12.5px;
-  overflow: hidden;
-  padding-bottom: 0;
-  justify-content: center;
-  background: mediumseagreen;
-}
-
-#heading {
-  width: 60%;
-  margin: 15px;
-  margin-top: 0;
-  font-size: 2rem;
-  text-align: center;
 }
 
 #card1 {
@@ -75,46 +52,5 @@ header {
 #card2 {
   background: url("Slide2.jpg") center;
   background-size: cover;
-  height: 600px;
-}
-
-#Lists {
-  text-align: center;
-  background: #333;
-  padding: 10px 28px 1px 22px;
-  width: 30rem;
-  margin: auto;
-  margin-top: 5rem;
-  height: 320px;
-  color: antiquewhite;
-  border: 3px solid #000;
-  border-radius: 10px;
-}
-
-.Notices {
-  padding: 7px;
-  text-align: center;
-}
-
-.Notices:hover:not(.active) {
-  background-color: mediumseagreen;
-  border: 1px solid antiquewhite;
-}
-
-.Notices:link {
-  text-decoration: none;
-  color: antiquewhite;
-}
-
-.Notices:visited {
-  text-decoration: none;
-  color: antiquewhite;
-}
-
-.Notices:hover {
-  text-decoration: none;
-}
-
-.Notices:active {
-  text-decoration: none;
+  height: 700px;
 }
